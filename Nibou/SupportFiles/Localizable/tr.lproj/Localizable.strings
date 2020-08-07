@@ -1,0 +1,317 @@
+/*
+ Localizable.strings
+ Nibou
+ 
+ Created by Ongraph on 5/8/19.
+ Copyright © 2019 OnGraph. All rights reserved.
+ */
+
+/**
+ MARK: - Common
+ */
+"NEXT" = "SONRAKİ";
+"CANCEL" = "İptal";
+"DONE" = "Bitti";
+"OK" = "TAMAM";
+"LOADING" = "Yükleniyor";
+"SOMETHING_WENT_WRONG" = "Bir şeyler yanlış gitti. Lütfen tekrar deneyin";
+"SUCCESS" = "Başarı";
+"INTERNET" = "İnternet bağlantısı hatası";
+"ERROR" = "HATA";
+"NO_DATA_FOUND" = "Veri bulunamadı";
+"SERVER_TIME_OUT" = "Zamanaşımı oluştu. Lütfen tekrar deneyin";
+"SYSTEM_ERROR" = "Sistem hatası";
+"SYSTEM_ERROR_DESC" = "İnternet bağlantısı koptu! Lütfen tekrar deneyin.";
+"TRY_AGAIN" = "Lütfen tekrar deneyin";
+"SAVE" = "Kaydet";
+"VIEW_ALL" = "Yorumları görüntüle";
+"SEARCH" = "Ara";
+"YES" = "DEVAM";
+"NO" = "İPTAL";
+"Turkey" = "Türkiye";
+
+/**
+ MARK: - Validation
+ */
+"USER_NAME_EMPTY" = "Lütfen ad soyad giriniz.";
+"ALIAS_EMPTY" = "Lütfen kullanıcı adınızı giriniz.";
+"EMAIL_EMPTY" = "Geçersiz E-Posta";
+"PASSWORD_EMPTY" = "Lütfen şifrenizi giriniz.";
+"PASSWORD_INVALID" = "Geçersiz şifre";
+"COUNTRY_EMPTY" = "Please Enter Country";
+"DOB_EMPTY" = "Lütfen doğum tarihinizi seçin";
+"SAME_PASSWORD_INVALID" = "Yeni Şifre ve Yeni Şifreyi Yeniden Girin aynı olmalıdır";
+
+
+/**
+ MARK: - Choose Language
+ */
+"CHOOSE_LANGUAGE_STATIC" = "Dilinizi seçin";
+
+
+/**
+ MARK: - Walkthrough
+ */
+"WALKTHROUGH_DESC_VIEW1" = "24 saat nitelikli danışmanlara erişin";
+"WALKTHROUGH_DESC_VIEW2" = "İhtiyaçlarınızı ve tercihlerinizi belirlemek için birkaç basit soruyu yanıtlayın.";
+"WALKTHROUGH_DESC_VIEW3" = "Gizliliğiniz bizim için son derece önemlidir ve Nibou üzerinden paylaşılan tüm veriler şifrelenmiştir.";
+"WALKTHROUGH_DESC_VIEW4" = "Yalnızca danışmanlarımızın sizinle etkileşim kurduğu süre için ücret ödersiniz.";
+"WALKTHROUGH_TITLE_VIEW1" = "Nibou’ya Hoşgeldiniz";
+"WALKTHROUGH_TITLE_VIEW2" = "Adım 1: Anket";
+"WALKTHROUGH_TITLE_VIEW3" = "Adım 2: Güvenli";
+"WALKTHROUGH_TITLE_VIEW4" = "Adım 3: Ücret";
+"LETS_BEGIN" = "HAYDİ\nBAŞLAYALIM";
+
+/**
+ MARK: - Choose User Type
+ */
+"NEW_USER" = "Yeni kullanıcıyım";
+"RETURNING_USER" = "Geri dönen kullanıcıyım";
+
+
+/**
+ MARK: - Sign Up
+ */
+"SIGN_UP" = "Kaydol";
+"SIGN_UP_ALERT_MESSAGE" = "Kaydolarak Nibou'nun şart ve koşullarını kabul etmiş oluyorsunuz.";
+"SIGN_UP_HEADER_TITLE" = "Kaydol";
+"SIGN_UP_HEADER_DESC" = "Gizliliğiniz birincil önceliğimizdir. Bu bilgileri istememizin nedenine gizlilik politikamız ve Üyelik Sözleşmesi bölümünden ulaşabilirsiniz.";
+"FULL_NAME" = "Ad Soyad";
+"ALIAS" = "Kullanıcı Adı";
+"EMAIL_ADDRESS" = "E-Posta";
+"PASSWORD" = "Şifre";
+"COUNTRY" = "Ülke";
+"DOB" = "DT";
+"ALIAS_INFO_DESC" = "Uzmanlarımız adınızı soyadınızı göremez. Sadece kullanıcı adınızı görebilir.";
+"COUNTRY_INFO_DESC" = "Bu bilgileri sizi en uygun danışman ile eşleştirmek için alıyoruz.";
+"PRIVACY_POLICY" = "gizlilik politikamız";
+"TERMS_AND_CONDITIONS" = "Üyelik Sözleşmesi bölümünden ulaşabilirsiniz.";
+"REGISTER_SUCCESS_DESC" = "Nibou’ya başarı ile kaydoldunuz. Daha mutlu bir hayata bir adım daha yaklaştınız.";
+"ALREADY_REGISTERED" = "E-posta başka bir hesaba kayıtlı.";
+"ERROR_SIGNUP_DESC" = "Lütfen geçerli bir internet bağlantınızın olduğundan ve hesabınızı etkinleştirdiğinizden emin olun.";
+
+/**
+ MARK: - Login
+ */
+"LOGIN" = "Giriş";
+"INVALID_LOGIN" = "Yanlış kullanıcı adı ya da parola";
+"FORGOT_PASSWORD" = "Parolanızı mı unuttunuz?";
+
+/**
+ MARK: - Reset Password View Controller
+ */
+"RESET_PASSWORD" = "Şifremi sıfırla";
+"RESET_PASSWORD_STATIC_DESC" = "Şifre sıfırlama yönergeleri için e-posta adresinizi girin";
+"RESET_PASSWORD_SUCCESS_DESC" = "Geçerli bir E-Posta girdiyseniz, şifre sıfırlama yönergeleri E-Postanıza gönderilecektir.";
+"RESET_PASSWORD_FAILURE" = "Böyle bir hesap yok.";
+
+/**
+ MARK: - Survey ViewController
+ */
+"SURVEY_HEADER" = "Bugün size nasıl yardımcı olabiliriz?";
+"SURVEY_DESC" = "En fazla 3 seçenek işaretleyiniz.";
+"CONTINUE" = "Devam";
+"SURVEY_ALERT_HEADER" = "Sizi ne rahatsız ediyor?";
+"ADDED_SURVEY_SUCCESS" = "Survey added successfully.";
+"PLEASE_ENTER" = "Lütfen yeni konu girin";
+
+/**
+ MARK: - Select Preference ViewController
+ */
+"SELECT_PREFERENCE_HEADER" = "Tercihlerinizi seçin";
+"PREFERENCE_A" = "Tercihim yok";
+"PREFERENCE_B" = "Bir kadın danışman ile görüşmek\nistiyorum";
+"PREFERENCE_C" = "Bir erkek danışman ile görüşmek\nistiyorum";
+"NO_EXPERT_FOUND" = "UZMAN YOK";
+"ALL_EXPERT_OFFLINE" = "Danışman çevrimdışı. Lütfen tekrar deneyin.";
+"EXPERT_UNAVAIBALE" = "Danışmanlar kullanılamıyor";
+
+
+/**
+ MARK: - Setting
+ */
+"LOGOUT" = "Çıkış Yap";
+"LOGOUT_ALERT" = "Çıkış yapmak istediğinize emin misiniz?";
+"SETTINGS" = "Ayarlar";
+"PROFILE" = "Profil";
+"EDIT_PROFILE" = "Profili düzenleyin";
+"CHANGE_PASSWORD" = "Şifrenizi değistirin";
+"MANAGE_CARD" = "Kredi kartlarinizi yönetin";
+"TRANSACTION_HISTORY" = "İşlem geçmişi";
+"PRICING_TERMS" = "Ücretler ve koşullar";
+"FEEDBACK" = "Geri bildirim";
+"CHOOSE_LANGUAGE" = "Dil seçin";
+
+/**
+ MARK: - Change Password
+ */
+"PASSWORD_CHANGE_SUCCESSFULLY" = "Şifre başarıyla değiştirildi";
+"CHANGE_PASSWORD_HEADER" = "Şifrenizi\nyenileyin";
+"OLD_PASSWORD" = "Mevcut şifre";
+"NEW_PASSWORD" = "Yeni şifre";
+"CONFIRM_PASSWORD" = "Yeni şifreyi tekrar girin";
+
+/**
+ MARK: - Profile
+ */
+"PROFILE_UPDATE_SUCCESSFULLY" = "Profil başarıyla güncellendi";
+
+/**
+ MARK: - Copy Chat History ViewController
+ */
+"COPY_CHAT_HEADER" = "Nibou Üyesi olarak uygulama içerisinde yer alan özelliklerden faydalanman ve yeni terapistin ile görüşmenin verimli geçmesi amacıyla konuşma geçmişinin yeni terapistin ile paylaşılmasını ister misin?";
+"PREFERENCE_YES_COPY" = "Evet, konuşma geçmişimin paylaşılmasını kabul ediyorum.";
+"PREFERENCE_NO_COPY" = "Hayır, konuşma geçmişimin paylaşılmasını kabul etmiyorum.";
+
+/**
+ MARK: - CHAT VC
+ */
+"GALLERY" = "GALLERY";
+"CAMERA" = "CAMERA";
+"CHAT_ENTER_MESSAGE" = "Lütfen mesajınızı girin";
+"VIEW_EXPERT_PROFILE" = "Uzmanı görüntüleyin";
+"END_CONVERSATION" = "Görüşmeyi bitirin";
+"SWITCH_EXPERT" = "Uzmanı değiştirin";
+"EXPERT_OFFLINE_ALERT_TITLE" = "Danışman çevrimdışı";
+"EXPERT_OFFLINE_LEAVE_MESSAGE" = "Mesaj bırakın";
+"EXPERT_OFFLINE_SWITCH_EXPERT" = "Uzman değiştir";
+"EXPERT_OFFILE_MESSAGE" = "%@ şu anda çevrimdışı ve… uygun olacak. %@ arasında %@. Başka bir danışman seçebilir ya da çevrimdışı mesaj bırakabilirsiniz.";
+"INVALID_ADD_CARD" = "Kredi Kartı Hatası";
+"INVALID_CARD_DESC" = "Hesabınızda geçerli bir kredi kartınız yok. Lütfen sohbete devam etmek için geçerli bir kart ekleyin.";
+"INVALID_CARD_TITLE" = "Kredi Kartı Hatası";
+"CHAT_CONVERSAION_ENDED" = "Konuşmanız başarıyla sona erdi.";
+"CHAT_SESSION_ALREADY_ENDED" = "Bu oturum çoktan sona erdi";
+
+
+
+/**
+ MARK: - Feedback VC
+ */
+"SUBMITTED_FEEDBACK_SUCCESS" = "Geri bildiriminiz başarıyla gönderilmiştir.";
+"ENTER_FEEDBACK" = "Lütfen geri bildirim iletinizi girin.";
+"ENTER_SUBJECT_FEEDBACK" = "Lütfen konuyu giriniz";
+"EMPTY_SUBJECT_FEEDBACK" = "Lütfen konu girin";
+"EMPTY_FEEDBACK" = "Lütfen geri bildirim iletinizi girin.";
+"SUBMIT_FEEDBACK" = "Gönder";
+
+/**
+ MARK: - Rating VC
+ */
+"RATE_ENTER_REVIEW" = "Yorum ekle";
+"RATE_HEADER" = "Yorum \n%@";
+"ERROR_SELECT_RATING" = "Lütfen değerlendirmenizi seçin";
+"SKIP" = "Atla";
+"ADD_REVIEW" = "Yorum ekle";
+
+/**
+ MARK: - Choose Expert VC
+ */
+"POPUP_CHAT_WITH_PREVIOUS" = "Daha önce görüştüğünüz bir uzmanla mı görüşmek istiyorsunuz?";
+"CHOOSE_EXPERT_HEADER" = "ÖNCEDEN YETKİLERDİĞİM BİR\nUZMANLA GÖRÜŞMEK İSTİYORUM";
+"CHOOSE_PREVIOUS_EXPERT" = "Önceki uzmanı seçin";
+"SPEAK_TO_NEW_EXPERT" = "YENİ BİR UZMANA KONUŞMAK\nİSTER MİSİNİZ";
+
+
+/**
+ MARK: - Weekdays
+ */
+"MONDAY" = "Pazartesi";
+"TUESDAY" = "Salı";
+"WEDNESDAY" = "Çarşamba";
+"THRUSDAY" = "Perşembe";
+"FRIDAY" = "Cuma";
+"SATURDAY" = "Cumartesi";
+"SUNDAY" = "Pazar";
+
+/**
+ MARK: - ADD CARD VC
+ */
+"CARD_NUMBER" = "Kart numarası";
+"CARD_HOLDER_NAME" = "Kart Sahibinin Adı";
+"EXPIRY" = "AA/YY";
+"CVV" = "CVV";
+"ERROR_ENTER_CARD_NUMBER" = "Lütfen kart numaranızı girin";
+"ERROR_ENTER_VALID_CARD_NUMBER" = "Lütfen Geçerli Kart Numarasını Giriniz";
+"ERROR_ENTER_EXPIRY_DATE" = "Lütfen kartın son kullanma tarihini girin";
+"ERROR_ENTER_CVV" = "Lütfen CVV numarasını giriniz";
+"ERROR_ENTER_VALID_EXPIRY_DATE" = "Lütfen geçerli bir CVV Numarası giriniz";
+"ERROR_ENTER_CARD_HOLDER_NAME" = "Lütfen kart sahibinin adını girin";
+"ERROR_ENTER_VALID_CARD_DETAILS" = "Lütfen Geçerli Kart Ayrıntılarını Girin";
+"ADD_CARD_HEADER" = "Ödeme sağlayiciya\nyönlendirildi";
+"ADD_CREDIT_CARD" = "KREDİ KARTI EKLEYİN";
+"CARD_ADDED_SUCCESSFULLY" = "Kart başarıyla eklendi";
+
+/**
+ MARK: - CHOOSE CARD VC
+ */
+"CHOOSE_CARD_HEADER" = "Varsayılan kartı seçin";
+"PAYMENT_INFO_HEADER" = "Ödeme bilgisi";
+"ADD_CREDIT_CARD" = "Kredi kartı ekleyin";
+"NO_CARD_DESC" = "BİR NİBOU UZMANI İLE GÖRÜŞEBİLMEK İÇİN HESABINIZA BİR KREDİ KARTI EKLEMELİSİNİZ.\n\nSİZİN SORUNUZU İLETTİĞİNİZ, DANIŞMANIN DURUMU ANALİZ ETTİĞİ VE SİZE CEVAP VERDİĞİ SÜRE İÇİN ÜCRETLENDİRİLECEKSİNİZ.\n\nGÜVENLİĞİ ÇOK CİDDİYE ALIYORUZ. TÜM İŞLEMLERİNİZ GÜVENLİ ÖDEME  AĞI İLE KORUNUYOR";
+"SELECT_CARD" = "Kart seç";
+"SET_DEFAULT_CARD" = "Varsayılan Kart Olarak Ayarla";
+"ERROR_PLEASE_SELECT_CARD" = "Lütfen varsayılan yapmak için bir kart seçin.";
+"WANT_TO_DELETE_CARD" = "Bu kartı silmek istediğinizden emin misiniz?";
+"CARD_DEFAULT_SUCCESS" = "Değişiklik başarıyla gönderildi";
+"ADD_CARD" = "+ KART EKLEYİN";
+"DELETE_CARD" = "Sil";
+
+/**
+ MARK: - Home VC
+ */
+"HOME_TITLE" = "Merhaba, %@";
+"TIMINGS_HEADER" = "Uygun Saatler";
+"FOCUS_HEADER" = "Uzmanlık Alanları";
+"LANGUAGES_HEADER" = "Konuştuğu Diller";
+"REVIEWS_HEADER" = "Yorumlar";
+"HOME_DESC" = "Bugün ne yapmak istiyorsunuz?";
+"TALK_ABOUT_DIFF_ISSUE" = "Başka bir\nkonuda danışın";
+
+/**
+ MARK: - APPDELETE NOTIFICATION
+ */
+"WS_NOTIFICATION_HEADER" = "Nibou WS Notificaion";
+"NEW_CHAT_ROOM_TITLE" = "Nibou";
+"NEW_CHAT_ROOM_SUBTITLE" = "Yeni Sohbet Odası Oluşturuldu";
+"NEW_CHAT_ROOM_BODY" = "Uzman ile sohbet edin.";
+"END_SESSION_SUBTITLE" = "ile görüşmeniz sonlanmıştır. Lütfen %@ ‘ı değerlendirin";
+"END_SESSION_TITLE" = "Oturum Sonu";
+"END_SESSION_BODY" = "Değerlendirin %@";
+"SESSION_TIMEOUT" = "Sohbet Oturumu Zaman Aşımı";
+"SESSION_TIMOUT_INACTIVE_HEADER" = "ETKİN OLMAYAN KONUŞMA";
+"END" = "Son";
+"INACTIVE_POPUP_DESC" = "%@'a son cevabınızdan bu yana %@ dakika geçti, hala bu sohbete devam etmek istiyor musunuz?";
+
+
+/**
+ MARK: - TRANSACTION VC
+ */
+"T_HEADER" = "İşlem\ngeçmişi";
+"T_EXPERT_NAME" = "Danışman Adı:";
+"T_TIME" = "Zaman:";
+"MINS" = "Dak";
+"T_AMOUNT" = "Meblağ:";
+"T_TRANSACTION_ID" = "İşlem kimliği:";
+"T_DATE" = "Tarih:";
+"T_ROOM" = "Oda:";
+"T_PAID" = "Ödendi";
+"T_UNPAID" = "Ödenmedi";
+
+
+/**
+ MARK: - THANKYOU VC
+ */
+"THANK_YOU_DESC" = "Yorumlarınız Nibou'nun yüksek standartlarını korumasına yardımcı olacaktır.";
+"THANK_YOU_TITLE" = "Teşekkürler";
+
+/**
+ MARK: - LOADING SCREEN
+ */
+"PLEASE_WAIT_TITLE" = "Lütfen bekleyiniz";
+"PLEASE_WAIT_DESC" = "Size mümkün olan en iyi terapist ile eşleşirken lütfen bekleyin";
+
+/*
+ MARK: - ADD CARD WEBVIEW
+ */
+"AGREE" = "Kabul Ediyorum";
+

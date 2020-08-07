@@ -1,0 +1,313 @@
+/* 
+  Localizable.strings
+  Nibou
+
+  Created by Ongraph on 5/8/19.
+  Copyright © 2019 OnGraph. All rights reserved.
+*/
+
+/**
+ MARK: - Common
+ */
+"NEXT" = "التالي";
+"CANCEL" = "الغاء";
+"DONE" = "فعله";
+"OK" = "حسنا";
+"LOADING" = "معالجة";
+"SOMETHING_WENT_WRONG" = "هناك خطأ ما، يرجى المحاولة مرة اخرى";
+"SUCCESS" = "نجاح";
+"INTERNET" = "فقد اتصال الانترنت";
+"ERROR" = "خطأ";
+"NO_DATA_FOUND" = "لاتوجد بيانات";
+"SERVER_TIME_OUT" = "الخادم لا يستجيب";
+"SYSTEM_ERROR" = "خطأ في النظام";
+"SYSTEM_ERROR_DESC" = "لم نتمكن من الاتصال بالخادم. يرجى التأكد من أن لديك اتصال مستقر بالإنترنت.";
+"TRY_AGAIN" = "حاول ثانية";
+"SAVE" = "حفظ";
+"VIEW_ALL" = "عرض الكل";
+"SEARCH" = "بحث";
+"YES" = "نعم";
+"NO" = "لا";
+"Turkey" = "تركيا";
+
+/**
+ MARK: - Validation
+ */
+"USER_NAME_EMPTY" = "يرجى ادخال الاسم بالكامل";
+"ALIAS_EMPTY" = " يرجى ادخال الاسم المستعار";
+"EMAIL_EMPTY" = "يرجى ادخال عنوان البريد الإلكتروني";
+"EMAIL_INVALID" = "عنوان البريد الإلكتروني غير صالح";
+"PASSWORD_EMPTY" = "يجب ان تكون كلمة المرور 6 احرف على الاقل";
+"PASSWORD_INVALID" = "يجب ان تكون كلمة المرور 6 احرف على الاقل";
+"COUNTRY_EMPTY" = "يرجى ادخال اسم الدولة";
+"DOB_EMPTY" = "يرجى تحديد تاريخ الميلاد";
+"SAME_PASSWORD_INVALID" = "كلمة المرور الجديدة وكلمة المرور المتكررة يجب أن تكون هي نفسها";
+
+/**
+ MARK: - Choose Language
+ */
+"CHOOSE_LANGUAGE_STATIC" = "اختار اللغة";
+
+
+/**
+ MARK: - Walkthrough
+ */
+"WALKTHROUGH_DESC_VIEW1" = "امكانية الحصول على معالجين مؤهلين على مدار الساعة";
+"WALKTHROUGH_DESC_VIEW2" = "اجيبوا على بعض الاسئلة البسيطة لتحديد احتياجاتكم و تفضيلاتكم";
+"WALKTHROUGH_DESC_VIEW3" = "خصوصياتكم مهمة جدا لنا وكل البيانات المتبادلة مع نيبو مشفرة";
+"WALKTHROUGH_DESC_VIEW4" = "يتم محاسبتكم فقط على الوقت الذي يستغرقه المعالجون لدينا للتفاعل معكم";
+"WALKTHROUGH_TITLE_VIEW1" = "اهلا بك في نيبو";
+"WALKTHROUGH_TITLE_VIEW2" = "الخطوة الاولى : دراسة استقصائية";
+"WALKTHROUGH_TITLE_VIEW3" = "الخطوة الثانية : تأمين";
+"WALKTHROUGH_TITLE_VIEW4" = "الخطوة الثالثة : الأهمية";
+"LETS_BEGIN" = "لنبدأ";
+
+/**
+ MARK: - Choose User Type
+ */
+"NEW_USER" = "انا مستخدم جديد";
+"RETURNING_USER" = "انا مستخدم عائد";
+
+
+/**
+ MARK: - Sign Up
+ */
+"SIGN_UP" = "للتسجيل";
+"SIGN_UP_ALERT_MESSAGE" = "بالتسجيل ، انتم توافقون على الشروط والاحكام الخاصة بـ نيب";
+"SIGN_UP_HEADER_TITLE" = "للتسجيل";
+"SIGN_UP_HEADER_DESC" = "اولويتنا الاولى هي خصوصياتكم .من اجل تفهم طلبنا لهذه المعلومات ، الرجاء مراجعة سياسة الخصوصية، الاحكام والشروط الخاصة بنا.";
+"FULL_NAME" = "الاسم بالكامل";
+"ALIAS" = "الاسم المستعار";
+"EMAIL_ADDRESS" = "البريد الالكتروني";
+"PASSWORD" = "كلمة المرور";
+"COUNTRY" = "الدولة";
+"DOB" = "تاريخ الميلاد";
+"ALIAS_INFO_DESC" = "لن يحصل  الخبير على اسمكم وسيتواصل معكم على الاسم المستعا";
+"COUNTRY_INFO_DESC" = "نرغب الحصول على هذه المعلومات من اجل تواصلكم مع افضل الخبراء المتاحين";
+"PRIVACY_POLICY" = "سياسة الخصوصية";
+"TERMS_AND_CONDITIONS" = "الاحكام والشروط";
+"REGISTER_SUCCESS_DESC" = "تم تسجيلكم بنجاح مع \"نيبو\". انتم على بعد خطوة واحدة من حياة اكثر سعادة";
+"ALREADY_REGISTERED" = "هوية البريد الإلكتروني مسجل سابقا مع حساب آخر";
+"ERROR_SIGNUP_DESC" = "يرجى التأكد من أن لديك اتصال إنترنت صالحًا وأنك قد نشطت حسابك";
+
+/**
+ MARK: - Login
+ */
+"LOGIN" = "تسجيل الدخول";
+"INVALID_LOGIN" = "البريد الإلكتروني أو كلمة السر خاطئة";
+"FORGOT_PASSWORD" = "هل نسيتم كلمة المرور؟";
+
+/**
+ MARK: - Reset Password View Controller
+ */
+"RESET_PASSWORD" = "اعادة تعيين كلمة المرور الخاصة بي";
+"RESET_PASSWORD_STATIC_DESC" = "ادخلوا بريدكم الالكتروني ادناه لتلقي تعليمات اعادة تعيين كلمة المرور الخاصة بكم";
+"RESET_PASSWORD_SUCCESS_DESC" = "اذا ادخلتم عنوان بريدا\" الكترونيا\" صالحا\"، فستتلقون رسالة بريد الكتروني تحتوي على تعليمات اعادة التعيين.";
+"RESET_PASSWORD_FAILURE" = "لم يتم إنشاء هذا الحساب بعد";
+
+/**
+ MARK: - Survey ViewController
+ */
+"SURVEY_HEADER" = "بماذا نستطيع ان نخدمكم اليوم؟";
+"SURVEY_DESC" = "اختاروا الى حد ثلاث خيارات";
+"CONTINUE" = "استمر";
+"SURVEY_ALERT_HEADER" = "ما الذي يزعجكم؟";
+"ADDED_SURVEY_SUCCESS" = "اضيف بنجاح";
+"PLEASE_ENTER" = "تفضل";
+
+/**
+ MARK: - Select Preference ViewController
+ */
+"SELECT_PREFERENCE_HEADER" = "حددوا تفضيلاتكم";
+"PREFERENCE_A" = "ليس لدي أي تفضيل";
+"PREFERENCE_B" = "افضل خبير انثى";
+"PREFERENCE_C" = "افضل خبير ذكر";
+"NO_EXPERT_FOUND" = "جميع الخبراء غير متصلين حاليًا ، يرجى إعادة المحاولة لاحقًا.";
+"ALL_EXPERT_OFFLINE" = "جميع الخبراء غير متصلين حاليًا ، يرجى إعادة المحاولة لاحقًا.";
+"EXPERT_UNAVAIBALE" = "الخبراء غير متاحين";
+
+
+/**
+ MARK: - Setting
+ */
+"LOGOUT" = "التسجيل للخروج";
+"LOGOUT_ALERT" = "هل انتم متأكدين، ترغبون الخروج؟";
+"SETTINGS" = "الاعدادات";
+"PROFILE" = "الملف الشخصي";
+"EDIT_PROFILE" = "تعديل الملف الشخصي";
+"CHANGE_PASSWORD" = "تغيير كلمة المرور";
+"MANAGE_CARD" = "إدارة البطاقات";
+"TRANSACTION_HISTORY" = "تاريخ المعاملة";
+"PRICING_TERMS" = "التسعير والشروط";
+"FEEDBACK" = "ملاحظات / تعليقات";
+"CHOOSE_LANGUAGE" = "اختاروا اللغة";
+
+/**
+ MARK: - Change Password
+ */
+"PASSWORD_CHANGE_SUCCESSFULLY" = "م تغيير كلمة المرور بنجاح";
+"CHANGE_PASSWORD_HEADER" = "إعادة تعيين\n كلمة المرور";
+"OLD_PASSWORD" = "كلمة المرور الحالية";
+"NEW_PASSWORD" = "كلمة المرور الجديدة";
+"CONFIRM_PASSWORD" = "كرروا كلمة المرور الجديدة";
+
+/**
+ MARK: - Profile
+ */
+"PROFILE_UPDATE_SUCCESSFULLY" = "تم تعديل الملف الشخصي بنجاح";
+
+/**
+ MARK: - Copy Chat History ViewController
+ */
+"COPY_CHAT_HEADER" = "هل ترغبون بإرسال محادثاتكم السابقة الى الخبير الجديد؟";
+"PREFERENCE_YES_COPY" = "نعم، الرجاء مشاركة سجل محادثاتي";
+"PREFERENCE_NO_COPY" = "لا، افضل الحفاظ على خصوصياتي";
+
+/**
+ MARK: - CHAT VC
+ */
+"GALLERY" = "صالة عرض";
+"CAMERA" = "الة تصوير";
+"CHAT_ENTER_MESSAGE" = "من فضلك ادخل الرسالة";
+"VIEW_EXPERT_PROFILE" = "شاهد الخبير";
+"END_CONVERSATION" = "نهاية المحادثة";
+"SWITCH_EXPERT" = "استبدال الخبير";
+"EXPERT_OFFLINE_ALERT_TITLE" = "الخبير غير متواصل على الانترنت";
+"EXPERT_OFFLINE_LEAVE_MESSAGE" = "اتركوا رسالة";
+"EXPERT_OFFLINE_SWITCH_EXPERT" = "استبدال الخبير";
+"EXPERT_OFFILE_MESSAGE" = "%@ is currently offline and will be available %@ between %@. You can switch to another expert or leave an offline message";
+"INVALID_ADD_CARD" = "اضفوا البطاقة";
+"INVALID_CARD_DESC" = "البطاقة غير صالحة";
+"INVALID_CARD_TITLE" = "خطأ في بطاقة الائتمان";
+"CHAT_CONVERSAION_ENDED" = "محادثتك تنتهي بنجاح.";
+"CHAT_SESSION_ALREADY_ENDED" = "انتهت هذه الجلسة بالفعل";
+
+/**
+ MARK: - Feedback VC
+ */
+"SUBMITTED_FEEDBACK_SUCCESS" = "تم ارسال الملاحظات/ التعليقات بنجاح";
+"ENTER_FEEDBACK" = "ملاحظات / تعليقات";
+"ENTER_SUBJECT_FEEDBACK" = "الموضوع";
+"EMPTY_SUBJECT_FEEDBACK" = "رجى ادخال ملاحظاتكم/ تعليقاتكم";
+"EMPTY_FEEDBACK" = "يرجى ادخال ملاحظاتكم/ تعليقاتكم ";
+"SUBMIT_FEEDBACK" = "تقديم ردود الفعل";
+
+/**
+ MARK: - Rating VC
+ */
+"RATE_ENTER_REVIEW" = "اضف مراجعة";
+"RATE_HEADER" = "مراجعة \n%@";
+"ERROR_SELECT_RATING" = "يرجى اختيار التصنيف";
+"SKIP" = "تخطى";
+"ADD_REVIEW" = "اضف مراجعة";
+
+/**
+ MARK: - Choose Expert VC
+ */
+"POPUP_CHAT_WITH_PREVIOUS" = "هل ترغبون المحادثة مع خبيرا تعاملتم معه مسبقا؟";
+"CHOOSE_EXPERT_HEADER" = "خبيرا تعاملتم معه مسبقا؟\nهل ترغبون المحادثة مع ";
+"CHOOSE_PREVIOUS_EXPERT" = "اختاروا خبيرا سابقا";
+"SPEAK_TO_NEW_EXPERT" = "ارغب التحدث مع خبير جدي";
+
+/**
+ MARK: - Weekdays
+ */
+"MONDAY" = "الاثنين";
+"TUESDAY" = "الثلاثاء";
+"WEDNESDAY" = "الاثنين";
+"THRUSDAY" = "الخميس";
+"FRIDAY" = "الخميس";
+"SATURDAY" = "السبت";
+"SUNDAY" = "الاحد";
+
+/**
+ MARK: - ADD CARD VC
+ */
+"CARD_NUMBER" = "رقم البطاقة";
+"CARD_HOLDER_NAME" = "اسم حامل البطاقة";
+"EXPIRY" = "الشهر/العام";
+"CVV" = "CVV";
+"ERROR_ENTER_CARD_NUMBER" = "يرجى ادخال رقم البطاقة";
+"ERROR_ENTER_VALID_CARD_NUMBER" = "يرجى ادخال رقم البطاقة";
+"ERROR_ENTER_EXPIRY_DATE" = "يرجى ادخال تاريخ انتهاء صلاحية البطاقة";
+"ERROR_ENTER_CVV" = "CVVيرجى ادخال رقم الـ";
+"ERROR_ENTER_VALID_EXPIRY_DATE" = "CVVيرجى ادخال رقم الـ";
+"ERROR_ENTER_CARD_HOLDER_NAME" = "يرجى ادخال اسم حامل البطاقة";
+"ERROR_ENTER_VALID_CARD_DETAILS" = "الرجاء إدخال تفاصيل بطاقة صالحة";
+"ADD_CARD_HEADER" = "الى بوابة الدفع\nاعادة التوجيه";
+"ADD_CREDIT_CARD" = "اضفوا بطاقة الائتمان";
+"CARD_ADDED_SUCCESSFULLY" = "تمت إضافة البطاقة بنجاح";
+
+/**
+ MARK: - CHOOSE CARD VC
+ */
+"CHOOSE_CARD_HEADER" = "الافتراضية\nاختاروا البطاقة";
+"PAYMENT_INFO_HEADER" = "معلومات الدفع";
+"ADD_CREDIT_CARD" = "اضفوا بطاقة الائتمان";
+"NO_CARD_DESC" = "الامن لدينا مهم جدا\" لذلك جميع معاملاتكم محمية باستخدام بوابة الدفع الآمنة لدينا.\n\nستتم محاسبتكم وفقا للوقت الذي يستغرقه الخبير في التحليل والرد عليكم فقط لا غير.\n\nلكي يتم التفاعل مع خبير \"نيبو \" يجب اضافة بطاقة الائتمان الى حسابكم.";
+"SELECT_CARD" = "اختاروا البطاقة";
+"SET_DEFAULT_CARD" = "تعيين كبطاقة افتراضية";
+"ERROR_PLEASE_SELECT_CARD" = "يرجى اختيار بطاقة لجعل الافتراضي.";
+"WANT_TO_DELETE_CARD" = "هل انتم متأكدين، هل ترغبون في حذف هذه البطاقة؟";
+"CARD_DEFAULT_SUCCESS" = "تم التغيير بنجاح";
+"ADD_CARD" = "اضفوا البطاقة +";
+"DELETE_CARD" = "حذف";
+
+/**
+ MARK: - Home VC
+ */
+"HOME_TITLE" = "%@ ,مرحبا";
+"TIMINGS_HEADER" = "توقيت";
+"FOCUS_HEADER" = "التركيز";
+"LANGUAGES_HEADER" = "اللغة";
+"REVIEWS_HEADER" = "مراجع";
+"HOME_DESC" = "ماذا تريدون ان تفعلوا اليوم؟";
+"TALK_ABOUT_DIFF_ISSUE" = "ضوع مختلف\nالتكلم عن مو";
+
+/**
+ MARK: - APPDELETE NOTIFICATION
+ */
+"WS_NOTIFICATION_HEADER" = "Nibou WS Notificaion";
+"NEW_CHAT_ROOM_TITLE" = "Nibou";
+"NEW_CHAT_ROOM_SUBTITLE" = "تم إنشاء غرفة دردشة جديدة";
+"NEW_CHAT_ROOM_BODY" = "الدردشة مع الخبراء.";
+"END_SESSION_SUBTITLE" = "انتهت جلستك.";
+"END_SESSION_TITLE" = "انتهت جلستك.";
+"END_SESSION_BODY" = "%@ يرجى معدل";
+"SESSION_TIMEOUT" = "محادثة جلسة المهلة";
+"SESSION_TIMOUT_INACTIVE_HEADER" = "محادثة غير فعالة";
+"END" = "النهاية";
+"INACTIVE_POPUP_DESC" = "مرت أكثر من %@ دقائق من إجابتك الأخيرة إلى %@ هل ترغب في متابعة هذه المحادثة؟";
+
+
+/**
+ MARK: - TRANSACTION VC
+ */
+"T_HEADER" = "المعاملة\nتاريخ";
+"T_EXPERT_NAME" = ":اسم الخبير";
+"T_TIME" = ":التوقيت";
+"MINS" = "الدقائق";
+"T_AMOUNT" = ":المبلغ";
+"T_TRANSACTION_ID" = ":هوية المعاملة";
+"T_DATE" = ":التاريخ";
+"T_ROOM" = ":غرفة";
+"T_PAID" = "مدفوع";
+"T_UNPAID" = "غير مدفوع";
+
+
+/**
+ MARK: - THANKYOU VC
+ */
+"THANK_YOU_DESC" = "الحفاظ على مستواها العالي\nان مراجعاتكم تساعد \"نيبو\" في";
+"THANK_YOU_TITLE" = "شكرا";
+
+/**
+ MARK: - LOADING SCREEN
+ */
+"PLEASE_WAIT_TITLE" = "يرجى الانتظار";
+"PLEASE_WAIT_DESC" = "يرجى الانتظار الى حين تواصلكم مع افضل خبير متاح";
+
+/*
+ MARK: - ADD CARD WEBVIEW
+ */
+"AGREE" = "يوافق على";

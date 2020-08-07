@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="UBUNTU-M.TTF">
+            <string>Ubuntu-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="TextWithBGTableViewCell" customModule="Nibou" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view alpha="0.050000000000000003" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a2g-Uz-Gti">
+                        <rect key="frame" x="0.0" y="5" width="320" height="39.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="corners">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ALu-WA-Icy" customClass="CustomTextField" customModule="Nibou" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="5" width="320" height="39.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="textColor" name="Blue_Color"/>
+                        <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="16"/>
+                        <textInputTraits key="textInputTraits"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="corners">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ALu-WA-Icy" secondAttribute="bottom" constant="5" id="0hJ-uO-5Mx"/>
+                    <constraint firstAttribute="trailing" secondItem="ALu-WA-Icy" secondAttribute="trailing" id="1v4-7y-OvN"/>
+                    <constraint firstItem="ALu-WA-Icy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="5Rm-nF-zUv"/>
+                    <constraint firstAttribute="trailing" secondItem="a2g-Uz-Gti" secondAttribute="trailing" id="6SY-s1-8uu"/>
+                    <constraint firstAttribute="bottom" secondItem="a2g-Uz-Gti" secondAttribute="bottom" constant="5" id="AQi-Vp-3pQ"/>
+                    <constraint firstItem="a2g-Uz-Gti" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="L2b-4C-mqr"/>
+                    <constraint firstItem="a2g-Uz-Gti" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="UN7-pA-Uvg"/>
+                    <constraint firstItem="ALu-WA-Icy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="yxp-EX-IHy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="corners">
+                    <real key="value" value="0.0"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="txtField" destination="ALu-WA-Icy" id="nAS-0v-Zkw"/>
+            </connections>
+            <point key="canvasLocation" x="57.971014492753625" y="117.85714285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Blue_Color">
+            <color red="0.19215686274509805" green="0.27843137254901962" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OPENSANS-REGULAR_1.TTF">
+            <string>OpenSans</string>
+        </array>
+        <array key="Ubuntu-B.ttf">
+            <string>Ubuntu-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="87" id="KGk-i7-Jjw" customClass="HeaderWithTitleAndDescTableViewCell" customModule="Nibou" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="170"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="169.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3f-az-274">
+                        <rect key="frame" x="20" y="15" width="280" height="22.5"/>
+                        <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iVm-o8-BtJ">
+                        <rect key="frame" x="20" y="52.5" width="280" height="107"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="107" id="v8H-D1-oYB"/>
+                        </constraints>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        <connections>
+                            <outlet property="delegate" destination="KGk-i7-Jjw" id="OrZ-S9-gL4"/>
+                        </connections>
+                    </textView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="iVm-o8-BtJ" secondAttribute="bottom" constant="10" id="IcD-Cp-MdZ"/>
+                    <constraint firstAttribute="trailing" secondItem="iVm-o8-BtJ" secondAttribute="trailing" constant="20" id="Lzi-Cq-VJX"/>
+                    <constraint firstItem="iVm-o8-BtJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="O4h-2f-8FN"/>
+                    <constraint firstItem="b3f-az-274" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="QdQ-Xv-oBt"/>
+                    <constraint firstItem="b3f-az-274" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="s7j-Lz-D4l"/>
+                    <constraint firstAttribute="trailing" secondItem="b3f-az-274" secondAttribute="trailing" constant="20" id="veQ-jY-ZCr"/>
+                    <constraint firstItem="iVm-o8-BtJ" firstAttribute="top" secondItem="b3f-az-274" secondAttribute="bottom" constant="15" id="yA4-FW-bf8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblDesc" destination="iVm-o8-BtJ" id="wWa-lA-Q9m"/>
+                <outlet property="lblTitle" destination="b3f-az-274" id="9hW-Mp-gNd"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="103.125"/>
+        </tableViewCell>
+    </objects>
+</document>

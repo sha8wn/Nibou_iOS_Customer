@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-R.ttf">
+            <string>Ubuntu</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="NBLeftImageTableViewCell" customModule="Nibou" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EjN-GX-weo">
+                        <rect key="frame" x="20" y="15" width="180" height="180"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LDC-bd-DZW">
+                                <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJk-NH-2v5">
+                                <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6a-IR-5C4">
+                                <rect key="frame" x="110" y="154" width="60" height="16"/>
+                                <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="14"/>
+                                <color key="textColor" name="Gray_Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="u3e-s5-NRa">
+                                <rect key="frame" x="80" y="80" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="rAU-Po-KAW"/>
+                                    <constraint firstAttribute="width" constant="20" id="zbR-4E-bXh"/>
+                                </constraints>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="180" id="7fA-y0-P0x"/>
+                            <constraint firstItem="eJk-NH-2v5" firstAttribute="top" secondItem="EjN-GX-weo" secondAttribute="top" id="7tX-2i-QbS"/>
+                            <constraint firstItem="u3e-s5-NRa" firstAttribute="centerY" secondItem="EjN-GX-weo" secondAttribute="centerY" id="BId-X1-XuH"/>
+                            <constraint firstItem="u3e-s5-NRa" firstAttribute="centerX" secondItem="EjN-GX-weo" secondAttribute="centerX" id="ErS-lB-Gi6"/>
+                            <constraint firstAttribute="trailing" secondItem="l6a-IR-5C4" secondAttribute="trailing" constant="10" id="TAJ-Sm-aqR"/>
+                            <constraint firstAttribute="trailing" secondItem="eJk-NH-2v5" secondAttribute="trailing" id="TFO-Av-Nb0"/>
+                            <constraint firstItem="eJk-NH-2v5" firstAttribute="leading" secondItem="EjN-GX-weo" secondAttribute="leading" id="V5q-fC-lwT"/>
+                            <constraint firstAttribute="bottom" secondItem="l6a-IR-5C4" secondAttribute="bottom" constant="10" id="Zsz-RP-SoH"/>
+                            <constraint firstAttribute="bottom" secondItem="eJk-NH-2v5" secondAttribute="bottom" id="dw4-1E-Agi"/>
+                            <constraint firstAttribute="trailing" secondItem="LDC-bd-DZW" secondAttribute="trailing" id="hq6-vb-939"/>
+                            <constraint firstItem="LDC-bd-DZW" firstAttribute="top" secondItem="EjN-GX-weo" secondAttribute="top" id="iLy-Qb-1ca"/>
+                            <constraint firstItem="LDC-bd-DZW" firstAttribute="leading" secondItem="EjN-GX-weo" secondAttribute="leading" id="l9k-do-RZo"/>
+                            <constraint firstAttribute="bottom" secondItem="LDC-bd-DZW" secondAttribute="bottom" id="qhu-bg-Tdm"/>
+                            <constraint firstAttribute="width" constant="180" id="rjP-AR-sR1"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="corners">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="EjN-GX-weo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="5AU-v6-Uuw"/>
+                    <constraint firstAttribute="bottom" secondItem="EjN-GX-weo" secondAttribute="bottom" constant="15" id="VxX-Kj-6dj"/>
+                    <constraint firstItem="EjN-GX-weo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Yn7-g9-nLV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="activityIndicator" destination="u3e-s5-NRa" id="CIz-2X-gSX"/>
+                <outlet property="bgView" destination="EjN-GX-weo" id="8LJ-JW-cba"/>
+                <outlet property="button" destination="eJk-NH-2v5" id="KL1-7m-IbY"/>
+                <outlet property="imgView" destination="LDC-bd-DZW" id="EWR-xT-yzx"/>
+                <outlet property="lblTime" destination="l6a-IR-5C4" id="PLn-Gf-pJu"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="82.366071428571431"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Gray_Color">
+            <color red="0.59215686274509804" green="0.5725490196078431" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

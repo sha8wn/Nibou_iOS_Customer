@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-B.ttf">
+            <string>Ubuntu-Bold</string>
+        </array>
+        <array key="Ubuntu-R.ttf">
+            <string>Ubuntu</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NBRatingTableCell" rowHeight="184" id="KGk-i7-Jjw" customClass="NBRatingTableCell" customModule="Nibou" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="208"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="208"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view alpha="0.050000000000000003" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TSg-rX-5oK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="188.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="corners">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aeq-rW-9j1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="188.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nvi-NV-j5i">
+                                <rect key="frame" x="15" y="25" width="379" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Ye6-bv-R4u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="16"/>
+                                <color key="textColor" name="Blue_Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jan 2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qt-9O-gzZ">
+                                <rect key="frame" x="15" y="51" width="379" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Qtx-6W-86D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="13"/>
+                                <color key="textColor" name="Blue_Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e5Y-1t-DwZ" customClass="FloatRatingView" customModule="Nibou" customModuleProvider="target">
+                                <rect key="frame" x="15" y="107" width="171" height="23"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="171" id="atk-pN-u2r"/>
+                                    <constraint firstAttribute="height" constant="23" id="rN2-SF-hcs"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="ic_Rating_Unselected"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="ic_Rating_Selected"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="minRating">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maxRating">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3m-nj-Rzw">
+                                <rect key="frame" x="15" y="150" width="379" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="16"/>
+                                <color key="textColor" name="Blue_Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="e5Y-1t-DwZ" firstAttribute="top" secondItem="5qt-9O-gzZ" secondAttribute="bottom" constant="35" id="1y1-M2-4kV"/>
+                            <constraint firstItem="5qt-9O-gzZ" firstAttribute="top" secondItem="Nvi-NV-j5i" secondAttribute="bottom" constant="5" id="2XB-zi-MYC"/>
+                            <constraint firstItem="5qt-9O-gzZ" firstAttribute="top" secondItem="Nvi-NV-j5i" secondAttribute="bottom" constant="5" id="44R-tH-0vm"/>
+                            <constraint firstItem="5qt-9O-gzZ" firstAttribute="leading" secondItem="Nvi-NV-j5i" secondAttribute="leading" id="Ckc-WY-OhS"/>
+                            <constraint firstAttribute="trailing" secondItem="Nvi-NV-j5i" secondAttribute="trailing" constant="20" id="DOB-Ub-Q9V"/>
+                            <constraint firstItem="Nvi-NV-j5i" firstAttribute="top" secondItem="Aeq-rW-9j1" secondAttribute="top" constant="25" id="Ide-OB-e9Z"/>
+                            <constraint firstAttribute="trailing" secondItem="5qt-9O-gzZ" secondAttribute="trailing" constant="20" id="IfO-xC-ghw"/>
+                            <constraint firstItem="Nvi-NV-j5i" firstAttribute="leading" secondItem="Aeq-rW-9j1" secondAttribute="leading" constant="15" id="RFk-oP-gyE"/>
+                            <constraint firstItem="b3m-nj-Rzw" firstAttribute="leading" secondItem="Aeq-rW-9j1" secondAttribute="leading" constant="15" id="Syb-VS-hXI"/>
+                            <constraint firstItem="b3m-nj-Rzw" firstAttribute="top" secondItem="e5Y-1t-DwZ" secondAttribute="bottom" constant="20" id="lVY-e6-dG4"/>
+                            <constraint firstAttribute="trailing" secondItem="b3m-nj-Rzw" secondAttribute="trailing" constant="20" id="n2M-zm-8Vu"/>
+                            <constraint firstItem="e5Y-1t-DwZ" firstAttribute="leading" secondItem="Aeq-rW-9j1" secondAttribute="leading" constant="15" id="o9d-5E-12P"/>
+                            <constraint firstAttribute="bottom" secondItem="b3m-nj-Rzw" secondAttribute="bottom" constant="20" id="o9i-Nb-p0L"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="corners">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Aeq-rW-9j1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="2In-dv-ZBp"/>
+                    <constraint firstItem="TSg-rX-5oK" firstAttribute="leading" secondItem="Aeq-rW-9j1" secondAttribute="leading" id="59F-oU-caH"/>
+                    <constraint firstAttribute="trailing" secondItem="Aeq-rW-9j1" secondAttribute="trailing" id="5Me-8L-zjv"/>
+                    <constraint firstItem="TSg-rX-5oK" firstAttribute="width" secondItem="Aeq-rW-9j1" secondAttribute="width" id="Kn8-iV-MyK"/>
+                    <constraint firstAttribute="bottom" secondItem="Aeq-rW-9j1" secondAttribute="bottom" constant="19.5" id="ZU8-Iv-qiY"/>
+                    <constraint firstItem="TSg-rX-5oK" firstAttribute="height" secondItem="Aeq-rW-9j1" secondAttribute="height" id="e8r-tn-5pd"/>
+                    <constraint firstItem="TSg-rX-5oK" firstAttribute="top" secondItem="Aeq-rW-9j1" secondAttribute="top" id="erv-03-jB4"/>
+                    <constraint firstItem="Aeq-rW-9j1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="tDE-1x-RwE"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="number" keyPath="corners">
+                        <real key="value" value="10"/>
+                    </userDefinedRuntimeAttribute>
+                </userDefinedRuntimeAttributes>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lbl_month" destination="5qt-9O-gzZ" id="KHq-OM-iDe"/>
+                <outlet property="lbl_name" destination="Nvi-NV-j5i" id="PKy-Rn-Cmh"/>
+                <outlet property="lbl_review" destination="b3m-nj-Rzw" id="iE2-Am-j9u"/>
+                <outlet property="rating_view" destination="e5Y-1t-DwZ" id="9xY-GC-Hb4"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="135.26785714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_Rating_Selected" width="37.5" height="36"/>
+        <image name="ic_Rating_Unselected" width="37.5" height="36"/>
+        <namedColor name="Blue_Color">
+            <color red="0.19215686274509805" green="0.27843137254901962" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

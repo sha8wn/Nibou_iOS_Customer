@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-B.ttf">
+            <string>Ubuntu-Bold</string>
+        </array>
+        <array key="Ubuntu-R.ttf">
+            <string>Ubuntu</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="71" id="KGk-i7-Jjw" customClass="HomeTableViewCell" customModule="Nibou" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_Home_Message" translatesAutoresizingMaskIntoConstraints="NO" id="myn-nh-LfX">
+                        <rect key="frame" x="75" y="25" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="21p-Wc-BeP"/>
+                            <constraint firstAttribute="height" constant="50" id="Z6K-vB-Exg"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBO-Bq-fpW">
+                        <rect key="frame" x="165" y="30" width="135" height="39.5"/>
+                        <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="16"/>
+                        <color key="textColor" name="Dark_Blue_Color"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U6o-Tn-rGj">
+                        <rect key="frame" x="62" y="12" width="30" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwH-3c-kT6">
+                                <rect key="frame" x="2" y="2" width="26" height="26"/>
+                                <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="Sky_Blue_Color"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="hwH-3c-kT6" secondAttribute="trailing" constant="2" id="BFK-8t-qUG"/>
+                            <constraint firstAttribute="width" constant="30" id="GDe-oW-B7Y"/>
+                            <constraint firstItem="hwH-3c-kT6" firstAttribute="top" secondItem="U6o-Tn-rGj" secondAttribute="top" constant="2" id="IlN-F8-06v"/>
+                            <constraint firstAttribute="bottom" secondItem="hwH-3c-kT6" secondAttribute="bottom" constant="2" id="Iwz-8h-PSF"/>
+                            <constraint firstAttribute="height" constant="30" id="ets-LT-m0v"/>
+                            <constraint firstItem="hwH-3c-kT6" firstAttribute="leading" secondItem="U6o-Tn-rGj" secondAttribute="leading" constant="2" id="uU5-jT-chU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="myn-nh-LfX" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="42r-1c-QYk"/>
+                    <constraint firstItem="U6o-Tn-rGj" firstAttribute="leading" secondItem="myn-nh-LfX" secondAttribute="leading" constant="-13" id="4ca-58-811"/>
+                    <constraint firstAttribute="trailing" secondItem="RBO-Bq-fpW" secondAttribute="trailing" constant="20" id="APE-J6-fc3"/>
+                    <constraint firstAttribute="bottom" secondItem="RBO-Bq-fpW" secondAttribute="bottom" constant="30" id="QIQ-pl-B7n"/>
+                    <constraint firstItem="RBO-Bq-fpW" firstAttribute="leading" secondItem="myn-nh-LfX" secondAttribute="trailing" constant="40" id="Xz6-8a-OwA"/>
+                    <constraint firstAttribute="trailing" secondItem="RBO-Bq-fpW" secondAttribute="trailing" constant="20" id="boZ-fz-A6V"/>
+                    <constraint firstItem="myn-nh-LfX" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="-60" id="fHg-AO-CMk"/>
+                    <constraint firstItem="U6o-Tn-rGj" firstAttribute="top" secondItem="myn-nh-LfX" secondAttribute="top" constant="-13" id="ghD-eA-MRi"/>
+                    <constraint firstItem="RBO-Bq-fpW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="wG8-dv-YIp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgView" destination="myn-nh-LfX" id="Z5l-3H-f4Z"/>
+                <outlet property="lblMessageCount" destination="hwH-3c-kT6" id="rci-2r-Gzw"/>
+                <outlet property="lblTitle" destination="RBO-Bq-fpW" id="7o0-mu-PYH"/>
+                <outlet property="newMessageView" destination="U6o-Tn-rGj" id="25R-N7-XM6"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="93.415178571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_Home_Message" width="60" height="60"/>
+        <namedColor name="Dark_Blue_Color">
+            <color red="0.16078431372549021" green="0.27450980392156865" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Sky_Blue_Color">
+            <color red="0.77647058823529413" green="0.90980392156862744" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

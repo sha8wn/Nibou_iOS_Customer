@@ -1,0 +1,313 @@
+/* 
+  Localizable.strings
+  Nibou
+
+  Created by Ongraph on 5/8/19.
+  Copyright © 2019 OnGraph. All rights reserved.
+*/
+
+/**
+ MARK: - Common
+ */
+"NEXT" = "NEXT";
+"CANCEL" = "CANCEL";
+"DONE" = "DONE";
+"OK" = "OK";
+"LOADING" = "Loading";
+"SOMETHING_WENT_WRONG" = "Something went wrong. Please try again";
+"SUCCESS" = "SUCCESS";
+"INTERNET" = "Internet connection lost";
+"ERROR" = "ERROR";
+"NO_DATA_FOUND" = "No Data Found";
+"SERVER_TIME_OUT" = "Timeout, Please try again";
+"SYSTEM_ERROR" = "System Error";
+"SYSTEM_ERROR_DESC" = "We were unable to connect with the Nibou server. Please make sure you have a stable internet connection.";
+"TRY_AGAIN" = "Try Again";
+"SAVE" = "Save";
+"VIEW_ALL" = "View All";
+"SEARCH" = "Search";
+"YES" = "YES";
+"NO" = "NO";
+"Turkey" = "Turkey";
+
+/**
+ MARK: - Validation
+ */
+"USER_NAME_EMPTY" = "Please enter username";
+"ALIAS_EMPTY" = "Please enter alias";
+"EMAIL_EMPTY" = "Please enter a valid email address";
+"PASSWORD_EMPTY" = "Please enter a valid password with at least 6 characters";
+"PASSWORD_INVALID" = "Please enter a valid password with at least 6 characters";
+"COUNTRY_EMPTY" = "Please select a country";
+"DOB_EMPTY" = "Please select DOB";
+"SAME_PASSWORD_INVALID" = "New password and repeated password should be the same";
+
+/**
+ MARK: - Choose Language
+ */
+"CHOOSE_LANGUAGE_STATIC" = "Choose your \n language";
+
+
+/**
+ MARK: - Walkthrough
+ */
+"WALKTHROUGH_DESC_VIEW1" = "Get access to qualified therapists around the clock.";
+"WALKTHROUGH_DESC_VIEW2" = "Answer a few simple questions to specify your needs and preferences.";
+"WALKTHROUGH_DESC_VIEW3" = "Your privacy is extremely important to us and all data exchanged over Nibou is encrypted.";
+"WALKTHROUGH_DESC_VIEW4" = "You will only be charged for the time you spend interacting with your therapist.";
+"WALKTHROUGH_TITLE_VIEW1" = "Welcome to Nibou";
+"WALKTHROUGH_TITLE_VIEW2" = "Step 1 : Survey";
+"WALKTHROUGH_TITLE_VIEW3" = "Step 2 : Secure";
+"WALKTHROUGH_TITLE_VIEW4" = "Step 3 : Value";
+"LETS_BEGIN" = "LET'S BEGIN";
+
+/**
+ MARK: - Choose User Type
+ */
+"NEW_USER" = "I AM A NEW USER";
+"RETURNING_USER" = "I AM A RETURNING USER";
+
+
+/**
+ MARK: - Sign Up
+ */
+"SIGN_UP" = "SIGN UP";
+"SIGN_UP_ALERT_MESSAGE" = "By signing up, you are agreeing to Nibou's terms & conditions.";
+"SIGN_UP_HEADER_TITLE" = "Sign up";
+"SIGN_UP_HEADER_DESC" = "Your privacy if our number one priority. To understand why we require this information, Please review our privacy policy and terms & conditions";
+"FULL_NAME" = "Full Name";
+"ALIAS" = "Alias";
+"EMAIL_ADDRESS" = "Email";
+"PASSWORD" = "Password";
+"COUNTRY" = "Country";
+"DOB" = "DOB";
+"ALIAS_INFO_DESC" = "Expert will not get access to your name and will refer to you using your alias";
+"COUNTRY_INFO_DESC" = "We take this information to match you with the best available experts.";
+"PRIVACY_POLICY" = "privacy policy";
+"TERMS_AND_CONDITIONS" = "terms & conditions";
+"REGISTER_SUCCESS_DESC" = "You have successfully signed up with Nibou. You need to activate your account in order to use the app. We have sent you instructions via email.";
+"ALREADY_REGISTERED" = "Account has already registered with this email. You need to login to continue";
+"ERROR_SIGNUP_DESC" = "Please make sure you have a valid internet connection and have activated your account";
+
+/**
+ MARK: - Login
+ */
+"LOGIN" = "LOGIN";
+"INVALID_LOGIN" = "Invalid Email or Password";
+"FORGOT_PASSWORD" = "Forgot password?";
+
+/**
+ MARK: - Reset Password View Controller
+ */
+"RESET_PASSWORD" = "RESET MY PASSWORD";
+"RESET_PASSWORD_STATIC_DESC" = "Enter your email below to receive your password reset instructions";
+"RESET_PASSWORD_SUCCESS_DESC" = "If you have entered a valid email, you will receive an email with reset instructions.";
+"RESET_PASSWORD_FAILURE" = "This account has not yet been created";
+
+/**
+ MARK: - Survey ViewController
+ */
+"SURVEY_HEADER" = "What can we help you with today?";
+"SURVEY_DESC" = "Select up to 3 options";
+"CONTINUE" = "CONTINUE";
+"SURVEY_ALERT_HEADER" = "WHAT'S TROUBLING YOU?";
+"ADDED_SURVEY_SUCCESS" = "Survey added successfully.";
+"PLEASE_ENTER" = "Please enter";
+
+/**
+ MARK: - Select Preference ViewController
+ */
+"SELECT_PREFERENCE_HEADER" = "Select your\npreference";
+"PREFERENCE_A" = "I DO NOT HAVE ANY PREFERENCE";
+"PREFERENCE_B" = "I PREFER A FEMALE THERAPIST";
+"PREFERENCE_C" = "I PREFER A MALE THERAPIST";
+"NO_EXPERT_FOUND" = "NO EXPERT FOUND";
+"ALL_EXPERT_OFFLINE" = "All are experts are currently offline, please try again later.";
+"EXPERT_UNAVAIBALE" = "Experts Unavailable";
+
+
+/**
+ MARK: - Setting
+ */
+"LOGOUT" = "LOGOUT";
+"LOGOUT_ALERT" = "Are you sure, you want to logout?";
+"SETTINGS" = "Settings";
+"PROFILE" = "Profile";
+"EDIT_PROFILE" = "Edit profile";
+"CHANGE_PASSWORD" = "Change password";
+"MANAGE_CARD" = "Manage cards";
+"TRANSACTION_HISTORY" = "Transaction history";
+"PRICING_TERMS" = "Pricing and terms";
+"FEEDBACK" = "Feedback";
+"CHOOSE_LANGUAGE" = "Choose language";
+
+/**
+ MARK: - Change Password
+ */
+"PASSWORD_CHANGE_SUCCESSFULLY" = "Your Password has been changed successfully.";
+"CHANGE_PASSWORD_HEADER" = "Reset\nPassword";
+"OLD_PASSWORD" = "Current Password";
+"NEW_PASSWORD" = "New Password";
+"CONFIRM_PASSWORD" = "Confirm New Password";
+
+/**
+ MARK: - Profile
+ */
+"PROFILE_UPDATE_SUCCESSFULLY" = "Your profile has been updated successfully.";
+
+/**
+ MARK: - Copy Chat History ViewController
+ */
+"COPY_CHAT_HEADER" = "WOULD LIKE TO SEND YOUR PREVIOUS CHATS TO THE NEW EXPERT?";
+"PREFERENCE_YES_COPY" = "YES, PLEASE SHARE MY CHAT HISTORY";
+"PREFERENCE_NO_COPY" = "NO, I'D PREFER TO KEEP THOSE PRIVATE";
+
+/**
+ MARK: - CHAT VC
+ */
+"GALLERY" = "GALLERY";
+"CAMERA" = "CAMERA";
+"CHAT_ENTER_MESSAGE" = "Please enter message";
+"VIEW_EXPERT_PROFILE" = "View Expert Profile";
+"END_CONVERSATION" = "End Conversation";
+"SWITCH_EXPERT" = "Switch Expert";
+"EXPERT_OFFLINE_ALERT_TITLE" = "EXPERT OFFLINE";
+"EXPERT_OFFLINE_LEAVE_MESSAGE" = "LEAVE MESSAGE";
+"EXPERT_OFFLINE_SWITCH_EXPERT" = "SWITCH EXPERT";
+"EXPERT_OFFILE_MESSAGE" = "%@ is currently offline and will be available %@ between %@. You can switch to another expert or leave an offline message";
+"INVALID_ADD_CARD" = "Add Card";
+"INVALID_CARD_DESC" = "You do not have any valid credit cards in your account. Please add a valid card to continue chatting.";
+"INVALID_CARD_TITLE" = "Credit Card Error";
+"CHAT_CONVERSAION_ENDED" = "Your conversation end successfully.";
+"CHAT_SESSION_ALREADY_ENDED" = "This session has already ended";
+
+/**
+ MARK: - Feedback VC
+ */
+"SUBMITTED_FEEDBACK_SUCCESS" = "Feedback submitted successfully";
+"ENTER_FEEDBACK" = "Enter your Feedback";
+"ENTER_SUBJECT_FEEDBACK" = "Enter your Subject";
+"EMPTY_SUBJECT_FEEDBACK" = "Please enter subject";
+"EMPTY_FEEDBACK" = "Please enter feedback message";
+"SUBMIT_FEEDBACK" = "SUBMIT FEEDBACK";
+
+/**
+ MARK: - Rating VC
+ */
+"RATE_ENTER_REVIEW" = "Enter your Review";
+"RATE_HEADER" = "Review \n%@";
+"ERROR_SELECT_RATING" = "Please select Rating";
+"SKIP" = "Skip";
+"ADD_REVIEW" = "ADD REVIEW";
+
+/**
+ MARK: - Choose Expert VC
+ */
+"POPUP_CHAT_WITH_PREVIOUS" = "Would you like to chat with an expert you have interacted with before?";
+"CHOOSE_EXPERT_HEADER" = "WOULD LIKE TO CHAT WITH\nAN EXPERT YOU HAVE INTERACTED\nWITH BEFORE? ";
+"CHOOSE_PREVIOUS_EXPERT" = "Choose a previous expert";
+"SPEAK_TO_NEW_EXPERT" = "WOULD YOU LIKE TO SPEAK TO A NEW EXPERT";
+
+/**
+ MARK: - Weekdays
+ */
+"MONDAY" = "Monday";
+"TUESDAY" = "Tuesday";
+"WEDNESDAY" = "Wednesday";
+"THRUSDAY" = "Thrusday";
+"FRIDAY" = "Friday";
+"SATURDAY" = "Saturday";
+"SUNDAY" = "Sunday";
+
+/**
+ MARK: - ADD CARD VC
+ */
+"CARD_NUMBER" = "Card number";
+"CARD_HOLDER_NAME" = "Card holder name";
+"EXPIRY" = "MM/YY";
+"CVV" = "CVV";
+"ERROR_ENTER_CARD_NUMBER" = "Please enter card number";
+"ERROR_ENTER_VALID_CARD_NUMBER" = "Please enter a valid card number";
+"ERROR_ENTER_EXPIRY_DATE" = "Please enter a valid expiry date";
+"ERROR_ENTER_CVV" = "Please enter the CVV number";
+"ERROR_ENTER_VALID_EXPIRY_DATE" = "Please enter a valid CVV number";
+"ERROR_ENTER_CARD_HOLDER_NAME" = "Please enter card holder name";
+"ERROR_ENTER_VALID_CARD_DETAILS" = "Please enter valid card details";
+"ADD_CARD_HEADER" = "Redirected to\npayment gateway";
+"ADD_CREDIT_CARD" = "ADD CREDIT CARD";
+"CARD_ADDED_SUCCESSFULLY" = "Card Added Successfully";
+
+/**
+ MARK: - CHOOSE CARD VC
+ */
+"CHOOSE_CARD_HEADER" = "Choose\ndefault card";
+"PAYMENT_INFO_HEADER" = "Payment info";
+"ADD_CREDIT_CARD" = "ADD CREDIT CARD";
+"NO_CARD_DESC" = "In order to interact with a Nibou Expert, you will need to add a credit card to your account.\n\nYou will only be charged for the time you spend interacting with your therapist.\n\nWe take your security seriously. All of our transactions are protected using a secure payment gateway.";
+"SELECT_CARD" = "SELECT CARD";
+"SET_DEFAULT_CARD" = "SET AS DEFAULT CARD";
+"ERROR_PLEASE_SELECT_CARD" = "Please select a card to make default.";
+"WANT_TO_DELETE_CARD" = "Do you want to delete this card?";
+"CARD_DEFAULT_SUCCESS" = "Change submitted successfully";
+"ADD_CARD" = "+ ADD CARD";
+"DELETE_CARD" = "Delete";
+
+/**
+ MARK: - Home VC
+ */
+"HOME_TITLE" = "Hello, %@";
+"TIMINGS_HEADER" = "TIMINGS";
+"FOCUS_HEADER" = "FOCUS";
+"LANGUAGES_HEADER" = "LANGUAGES";
+"REVIEWS_HEADER" = "REVIEWS";
+"HOME_DESC" = "What would you like to do today?";
+"TALK_ABOUT_DIFF_ISSUE" = "TALK ABOUT A\nDIFFERENT ISSUE";
+
+/**
+ MARK: - APPDELETE NOTIFICATION
+ */
+"WS_NOTIFICATION_HEADER" = "Nibou WS Notificaion";
+"NEW_CHAT_ROOM_TITLE" = "Nibou";
+"NEW_CHAT_ROOM_SUBTITLE" = "New Chat Room Created";
+"NEW_CHAT_ROOM_BODY" = "Chat with expert.";
+"END_SESSION_SUBTITLE" = "Your chat session with %@ has been ended.";
+"END_SESSION_TITLE" = "Session End";
+"END_SESSION_BODY" = "Please rate %@";
+"SESSION_TIMEOUT" = "Chat Session Timeout";
+"SESSION_TIMOUT_INACTIVE_HEADER" = "INACTIVE CONVERSATION";
+"END" = "END";
+"INACTIVE_POPUP_DESC" = "It's been over %@ minutes since your last response to %@, would you still like to continue this conversation?";
+
+
+/**
+ MARK: - TRANSACTION VC
+ */
+"T_HEADER" = "Transaction\nHistory";
+"T_EXPERT_NAME" = "Expert:";
+"T_TIME" = "Time:";
+"MINS" = "Mins";
+"T_AMOUNT" = "Amount:";
+"T_TRANSACTION_ID" = "Transaction Id:";
+"T_DATE" = "Date:";
+"T_ROOM" = "Room:";
+"T_PAID" = "Paid";
+"T_UNPAID" = "Unpaid";
+
+
+/**
+ MARK: - THANKYOU VC
+ */
+"THANK_YOU_DESC" = "Your reviews help Nibou maintain\nits high standards.";
+"THANK_YOU_TITLE" = "Thank you";
+
+/**
+ MARK: - LOADING SCREEN
+ */
+"PLEASE_WAIT_TITLE" = "Please Wait";
+"PLEASE_WAIT_DESC" = "Please wait while we match you with the best available therapist";
+
+
+/*
+ MARK: - ADD CARD WEBVIEW
+ */
+"AGREE" = "Agree";

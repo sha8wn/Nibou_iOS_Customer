@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-R.ttf">
+            <string>Ubuntu</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TimingsCollectionViewCell" customModule="Nibou" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="156" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="156" height="60"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dqN-Cz-Y4w">
+                        <rect key="frame" x="0.0" y="0.0" width="156" height="60"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDB-ta-3o4">
+                                <rect key="frame" x="10" y="10" width="136" height="16"/>
+                                <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="14"/>
+                                <color key="textColor" name="Blue_Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYt-XJ-Yvi">
+                                <rect key="frame" x="10" y="36" width="136" height="15"/>
+                                <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="13"/>
+                                <color key="textColor" name="Blue_Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="Light_Gray_BG"/>
+                        <constraints>
+                            <constraint firstItem="qDB-ta-3o4" firstAttribute="top" secondItem="dqN-Cz-Y4w" secondAttribute="top" constant="10" id="0Wg-Fi-rjg"/>
+                            <constraint firstItem="qDB-ta-3o4" firstAttribute="leading" secondItem="dqN-Cz-Y4w" secondAttribute="leading" constant="10" id="1Iw-M0-hDG"/>
+                            <constraint firstItem="YYt-XJ-Yvi" firstAttribute="top" secondItem="qDB-ta-3o4" secondAttribute="bottom" constant="10" id="2zF-l6-bd7"/>
+                            <constraint firstItem="YYt-XJ-Yvi" firstAttribute="leading" secondItem="dqN-Cz-Y4w" secondAttribute="leading" constant="10" id="D6e-wh-6K7"/>
+                            <constraint firstAttribute="trailing" secondItem="YYt-XJ-Yvi" secondAttribute="trailing" constant="10" id="g6t-wa-6V7"/>
+                            <constraint firstAttribute="bottom" secondItem="YYt-XJ-Yvi" secondAttribute="bottom" constant="9" id="jOa-74-Yt2"/>
+                            <constraint firstAttribute="trailing" secondItem="qDB-ta-3o4" secondAttribute="trailing" constant="10" id="vUF-KT-p4K"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="corners">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="dqN-Cz-Y4w" secondAttribute="trailing" id="52F-6c-8LE"/>
+                <constraint firstAttribute="bottom" secondItem="dqN-Cz-Y4w" secondAttribute="bottom" id="QR0-zo-g48"/>
+                <constraint firstItem="dqN-Cz-Y4w" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="cs6-Fl-F5T"/>
+                <constraint firstItem="dqN-Cz-Y4w" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="lNz-2h-YQB"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="156" height="77"/>
+            <connections>
+                <outlet property="bgView" destination="dqN-Cz-Y4w" id="Tqh-XH-tXn"/>
+                <outlet property="lblTiming" destination="YYt-XJ-Yvi" id="WM8-5D-kDd"/>
+                <outlet property="lblTitle" destination="qDB-ta-3o4" id="6gV-Of-rsh"/>
+            </connections>
+            <point key="canvasLocation" x="214.49275362318843" y="118.86160714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Blue_Color">
+            <color red="0.19215686274509805" green="0.27843137254901962" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Light_Gray_BG">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

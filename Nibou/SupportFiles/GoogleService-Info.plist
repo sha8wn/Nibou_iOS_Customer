@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>947722404069-rfh6fbuq1989g5atnd4hdu3j5i4m4g63.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.947722404069-rfh6fbuq1989g5atnd4hdu3j5i4m4g63</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>947722404069-ob59ako5htqpo0vs5gg0e5tvnmqf3gno.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD8PgJnERHfVNQlccuYNUZAyzqCmwZh1EY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>947722404069</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nibouapp.niboucustomer</string>
+	<key>PROJECT_ID</key>
+	<string>nibou-1fa4e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nibou-1fa4e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:947722404069:ios:46cdc5bd97e932e4</string>
+	<key>DATABASE_URL</key>
+	<string>https://nibou-1fa4e.firebaseio.com</string>
+</dict>
+</plist>
